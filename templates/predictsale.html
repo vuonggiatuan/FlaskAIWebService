@@ -1,0 +1,9 @@
+<form method="post" action="{{ url_for('predictresult') }}">
+  <input type="text" name="rate" placeholder="rate">
+  <input type="text" name="sales1" placeholder="sale1">
+  <input type="text" name="sale2" placeholder="sale2">
+  <input type="submit">
+</form>
+<br>
+<br>
+{{ prediction_text }}
